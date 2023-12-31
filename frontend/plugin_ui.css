@@ -1,0 +1,131 @@
+html {
+    min-height: 100vh;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+    min-height: 100vh;
+    background: linear-gradient(to top left,#f4eef1  0%,#8bdd77  100%);
+    border-radius: 50px;
+    
+}
+#plugin_name {
+    width: 600px;
+    margin: 0 0;
+    background-color: #414141;
+    margin: auto;
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 15px;
+}
+h1 {
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+.square_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #414141;
+    width: 8rem;
+    height: 8rem;
+    padding: 10px;
+    clear: both;
+    align-content: center;
+    margin: 0 auto; 
+    border-radius: 5% !important;
+    box-shadow: 2px 2px 10px gray;
+    transition: 200ms;
+    cursor: pointer;
+
+}
+.square_div:hover{
+scale: 95%;
+}
+
+/* Rest assured, this website is secure and safe to use :) */
+#site_score{
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+#site_msg{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    margin: 20px;
+}
+
+li {
+    font-family: 'Russo One', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 2px;
+    display: inline-block;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 100ms;
+    letter-spacing: 1px;
+}
+
+li:hover{
+    scale: 95%;
+}
+
+iframe {
+    margin: 10px;
+    display: inline-block;
+}
+
+a { width: 400px;
+    text-align: center;
+    display: block;
+    color: #ffff;
+    background-color: #414141;
+    text-align: center;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    transition: 500ms;
+    font-family: 'Russo One', sans-serif;
+
+}
+
+
+a:hover{
+    text-decoration: none;
+    transition: 0.2s;
+    box-shadow: 1px 1px 5px lightslategray;
+    color: black;
+    background-color: lightgreen;
+    scale: 102%;
+}
+
+a:active{
+    scale: 97%;
+    background-color: #949494;
+ 
+}
